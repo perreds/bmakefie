@@ -1,0 +1,9 @@
+lineas.txt : numeros.txt lineas.py #make solo mira a primera linea, poner objetivos aquí
+	python lineas.py
+
+numeros.x : numeros.c
+	gcc numeros.c -o numeros.x
+numeros.txt : numeros.x
+	./numeros.x > numeros.txt
+clean:
+	rm -f numeros.txt numeros.x lineas.txt

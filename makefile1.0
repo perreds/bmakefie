@@ -1,0 +1,2 @@
+hola.x:hola.c 			#Si hola.c es más reciente que el hola.x (es como un if)
+	gcc hola.c -o hola.x 	#Complila 

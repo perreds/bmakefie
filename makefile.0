@@ -1,0 +1,2 @@
+objetivo.txt : requisito.txt #revisa si requisito es más nuevo que el objetivo"
+	echo "requisito.txt es más nuevo que objetivo.txt"
